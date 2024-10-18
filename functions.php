@@ -38,7 +38,7 @@ function mytheme_enqueue_options_style() {
 	wp_enqueue_style( 'font-options-style', get_template_directory_uri() . '/css/fonts.css' );
 }
 add_action( 'admin_enqueue_scripts', 'mytheme_enqueue_options_style' );
-dvdv
+
 function mytheme_enqueue_login_style() {
     wp_enqueue_style( 'mytheme-options-style', get_template_directory_uri() . '/css/login.css' );
 }
